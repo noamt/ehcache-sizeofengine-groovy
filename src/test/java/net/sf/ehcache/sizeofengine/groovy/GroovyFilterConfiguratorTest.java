@@ -10,9 +10,6 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * @author Alex Snaps
- */
 public class GroovyFilterConfiguratorTest {
 
   @Test
