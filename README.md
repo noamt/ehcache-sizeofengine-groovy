@@ -9,5 +9,7 @@ Maven dependency
 	 <dependency>
 		<groupId>net.sf.ehcache</groupId>
 		<artifactId>sizeofengine-groovy</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.9.0</version>
 	</dependency>
+
+Not yet pushed to maven central, you'll have to install both this module and the ehcache-sizeofengine modules locally first.
