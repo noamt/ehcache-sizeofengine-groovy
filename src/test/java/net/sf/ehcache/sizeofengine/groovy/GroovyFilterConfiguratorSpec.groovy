@@ -1,8 +1,6 @@
 package net.sf.ehcache.sizeofengine.groovy
 
 import net.sf.ehcache.pool.impl.DefaultSizeOfEngine
-import org.ehcache.sizeof.Configuration
-import org.ehcache.sizeof.EhcacheSizeOfEngine
 import org.ehcache.sizeof.EhcacheSizeOfEngineFactory
 import spock.lang.Specification
 
