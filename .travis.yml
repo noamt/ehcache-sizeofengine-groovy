@@ -2,4 +2,4 @@ language: java
 jdk:
   - oraclejdk7
   - openjdk7
-after_succes: ./gradlew artifactoryPublish
+script: ./gradlew clean build artifactoryPublish
