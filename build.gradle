@@ -24,11 +24,11 @@ task sourceJar(type: Jar) {
 publishing {
     publications {
         mainDist(MavenPublication) {
-                from components.java
+            from components.java
 
-                artifact sourceJar {
-                    classifier 'source'
-                }
+            artifact sourceJar {
+                classifier 'source'
+            }
         }
     }
 }
