@@ -44,10 +44,10 @@ publishing {
 }
 
 artifactory {
-    contextUrl = System.getenv('artifactoryUrl')
+    contextUrl = 'https://oss.jfrog.org'
     publish {
         repository {
-            repoKey = System.getenv('artifactoryRepoKey')
+            repoKey = version.contains('-SNAPSHOT') ? 'oss-snapshot-local' : 'oss-release-local'
             username = System.getenv('artifactoryUsername')
             password = System.getenv('artifactoryPassword')
         }
