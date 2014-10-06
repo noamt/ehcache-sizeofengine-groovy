@@ -2,6 +2,6 @@
 
 image:https://travis-ci.org/noamt/ehcache-sizeofengine-groovy.svg?branch=master["Build Status", link="https://travis-ci.org/noamt/ehcache-sizeofengine-groovy"]
 
-See http://terracotta-oss.github.io/ehcache-sizeofengine[Ehcache's SizeOfEngine module] for details, but to put it
+See http://ehcache.github.io/sizeof/[Ehcache's SizeOfEngine module] for details, but to put it
 simply: adding this dependency to your project, will have http://www.ehcache.org[Ehcache's] Automatic Resource Control
 (aka http://ehcache.org/documentation/arc[ARC]) size Groovy object instances correctly.
