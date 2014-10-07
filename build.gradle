@@ -1,5 +1,5 @@
 group = 'org.ehcache'
-version = '0.9.x-SNAPSHOT'
+version = '0.9.1'
 
 buildscript {
     repositories {
@@ -37,7 +37,7 @@ publishing {
             from components.java
 
             artifact sourceJar {
-                classifier 'source'
+                classifier 'sources'
             }
         }
     }
