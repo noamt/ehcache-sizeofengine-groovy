@@ -1,5 +1,5 @@
 group = 'org.ehcache'
-version = '0.9.1'
+version = '0.9.x-SNAPSHOT'
 
 buildscript {
     repositories {
