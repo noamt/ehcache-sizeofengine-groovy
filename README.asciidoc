@@ -1,7 +1,17 @@
-== ehcache-sizeofengine-groovy
+== Ehcache Groovy SizeOfEngine
 
-image:https://travis-ci.org/noamt/ehcache-sizeofengine-groovy.svg?branch=master["Build Status", link="https://travis-ci.org/noamt/ehcache-sizeofengine-groovy"]
-
-See http://ehcache.github.io/sizeof/[Ehcache's SizeOfEngine module] for details, but to put it
-simply: adding this dependency to your project, will have http://www.ehcache.org[Ehcache's] Automatic Resource Control
+A module complimentary to http://ehcache.github.io/sizeof/[Ehcache's SizeOfEngine module]. Adding this module to your project will have http://www.ehcache.org[Ehcache's] Automatic Resource Control
 (aka http://ehcache.org/documentation/arc[ARC]) size Groovy object instances correctly.
+
+The latest version this module is compatible with the latest versions of the Ehcache and the SizeOfEngine.
+
+=== Distribution
+
+The module is distributed via https://bintray.com[Bintray] image:https://api.bintray.com/packages/noamt/java-libraries/ehcache-sizeofengine-groovy/images/download.svg[link="https://bintray.com/noamt/java-libraries/ehcache-sizeofengine-groovy/_latestVersion"]
+
+=== Build
+
+The master and release branches are built by Travis-CI image:https://travis-ci.org/noamt/ehcache-sizeofengine-groovy.svg?branch=master["Build Status", link="https://travis-ci.org/noamt/ehcache-sizeofengine-groovy"] +
+and snapshot versions can be found at:
+[source]
+http://oss.jfrog.org/artifactory/list/oss-snapshot-local/
